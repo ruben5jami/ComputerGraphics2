@@ -1,0 +1,65 @@
+#canvas{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0;
+    margin: auto;
+    display: block;
+
+}
+
+input, select, textarea{
+    color: black;
+}
+
+textarea:focus, input:focus {
+    color: black;
+}
+
+#menu{
+    color: white;
+    height: 75px;
+    background-color: #3CBC8D;
+}
+#tools{
+    float: right;
+    width: calc(100% - 200px);
+    padding-top: 20px;
+}
+
+#logo{
+    float: left;
+    height: 75px;
+    width: 100px;
+    background-image: url("logo-final-web.png");
+}
+
+
+#clearbtn{
+    float: right;
+    padding-right: 50px;
+}
+
+#load_file{
+    float: right;
+    padding-right: 50px;
+}
+
+.btn-group .btn {
+    margin-right:2px;
+}
+.btn{
+    background-color:transparent;
+    color:#000;
+}
+
+.radios{
+    padding-left: 10px;
+}
+
+
+input[type=text]{
+    border-radius:8px;
+}
+
+
